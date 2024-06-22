@@ -8,8 +8,7 @@ import sys
 import signal
 import re
 
-
-""" Initializations """
+# Initializations
 lines_count = 0
 total_size = 0
 status_code_counts = {
@@ -22,7 +21,6 @@ status_code_counts = {
         '405': 0,
         '500': 0
 }
-
 
 # Signal Hundler for (Ctrl + C)
 def interrupt_handler(sig, frame):
